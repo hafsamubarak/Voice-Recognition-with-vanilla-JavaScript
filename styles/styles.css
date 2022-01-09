@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.sec1 {
+  background: url("../images/3.PNG") center no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+.sec1 .wrapper {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec1 .wrapper aside {
+  max-width: 1140px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.sec1 .wrapper aside h1 {
+  font-size: 1.9rem;
+  padding-bottom: 10px;
+}
+.sec1 .wrapper aside p {
+  max-width: 50%;
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+.sec1 .wrapper aside p a img {
+  width: 150px;
+  margin-top: 15px;
+}
+.sec2 {
+  background: url("../images/fishing-bg.png") center no-repeat;
+  background-size: cover;
+}
+.sec2 .wrapper {
+  height: 70vh;
+  padding-top: 165px;
+}
+.sec2 .wrapper .talk {
+  width: 157px;
+  padding-top: 250px;
+  /* width: fit-content; */
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: none;
+  align-self: center;
+  color: #2aaf55;
+  padding: 10px;
+  font-size: 1.8rem;
+}
+.sec2 .wrapper .talk:hover {
+  background-color: #fff;
+  color: #82e2f5;
+}
+.sec2 .wrapper .voice2text {
+  text-align: center;
+  font-size: 2rem;
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: #2aaf55;
+}
+.sec2 .wrapper .photo {
+  display: flex;
+  justify-content: center;
+  /* padding-bottom: 30px; */
+}
